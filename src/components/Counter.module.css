@@ -46,3 +46,25 @@
 .counterContainer button:hover {
   opacity: 0.85;
 }
+
+.setValueRow {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.setValueRow input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.setValueRow button {
+  width: auto;
+  padding: 10px 16px;
+  background-color: #333;
+  color: white;
+}
